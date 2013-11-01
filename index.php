@@ -17,6 +17,7 @@
 </head>
 <body>
 <h1>Register here!</h1>
+<h1>Demo heading</h1>
 <p>Fill in your name and email address, then click <strong>Submit</strong> to register.</p>
 <form method="post" action="index.php" enctype="multipart/form-data" >
       Name  <input type="text" name="name" id="name"/></br>
