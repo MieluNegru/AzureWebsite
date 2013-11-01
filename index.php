@@ -25,6 +25,7 @@
       <input type="submit" name="submit" value="Submit" />
 	  
 </form>
+<a href="search.php">Search users</a>
 <?php
     $host = "eu-cdbr-azure-west-b.cloudapp.net";
     $user = "b96b54a376a231";
@@ -69,7 +70,7 @@
         echo "<tr><th>Name</th>";
         echo "<th>Email</th>";
         echo "<th>Date</th>";
-		echo "<th>Company Name<th></tr>"
+		echo "<th>Company Name<th></tr>";
         foreach($registrants as $registrant) {
             echo "<tr><td>".$registrant['name']."</td>";
             echo "<td>".$registrant['email']."</td>";
